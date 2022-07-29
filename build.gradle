@@ -1,6 +1,7 @@
 plugins {
     id 'fabric-loom' version '0.12.55'
     id 'maven-publish'
+    id "io.freefair.lombok" version "latest.release"
 }
 
 version = project.mod_version
@@ -12,6 +13,18 @@ repositories {
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
+    maven {
+        url 'https://jitpack.io'
+    }
+    maven {
+        url "https://maven.terraformersmc.com/"
+    }
+    maven {
+        url "https://maven.shedaniel.me/"
+    }
+    maven {
+        url "https://maven.siphalor.de/"
+    }
 }
 
 dependencies {
@@ -22,6 +35,9 @@ dependencies {
 
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    modImplementation "com.gitlab.Lortseam.completeconfig:base:latest.release"
+    include "com.gitlab.Lortseam.completeconfig:base:latest.release"
 }
 
 processResources {

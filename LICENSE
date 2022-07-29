@@ -1,21 +1,27 @@
-The MIT License (MIT)
+Don't Be a Dick License
 
-Copyright (c) 2022 
+Copyright (c) 2022 Ocraftyone
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Don't redistribute this code without meaningful modification. Meaningful modifications are considered changes that impact the functionality of the code. Meaningful modifications are not rewriting the code slightly differently while retaining initial functionality/benefits or modifying comments/documentation.
+2. If code is modified and redistributed, the code must remain open source and have proper credit given.
+3. No authorized distribution of unmodified/not meaningfully modified binaries is allowed. The ONLY exception to this the mod may be redistributed as a part of a modpack.
+4. This project is NOT for commercial use unless given explicit consent by myself (Ocraftyone).
+5. If portions of the code are used in a project, make sure proper credit is given.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+What this means:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+DO
+Use this code for inspiration/use small portions (a few methods/a class) of the code.
+Give credit for portions of code used.
+Modify the code.
+Redistribute meaningfully modified code with proper credit given.
+Include the mod in a modpack.
+
+DO NOT
+Copy paste large portions of the code.
+Redistribute the code unmodified.
+Redistribute modified code without credit.
+Use this code in a project that is not open source.
+Use in a commercial way without permission.
+
+And, DON'T BE A DICK.

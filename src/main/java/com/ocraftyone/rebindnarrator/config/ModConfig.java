@@ -17,9 +17,11 @@ public class ModConfig extends Config {
     private Modifier modifierKey = Modifier.CTRL;
     
     public enum Modifier {
-        CTRL,
-        ALT,
-        SHIFT,
-        NONE
+        CTRL, ALT, SHIFT, NONE;
+        public void updateConfig() {
+            ModConfig config = RebindNarrator.config;
+            config.modifierKey = this;
+            config.save();
+        }
     }
 }

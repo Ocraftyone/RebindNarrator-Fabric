@@ -43,7 +43,7 @@ public abstract class KeyboardHandlerMixin {
             return Screen.hasShiftDown();
         } else if (modifier == ModConfig.Modifier.NONE) {
             logger.info("none");
-            return false;
+            return true;
         }
         logger.info("invalid modifier");
         return false;

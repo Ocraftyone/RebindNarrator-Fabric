@@ -3,7 +3,6 @@ package com.ocraftyone.rebindnarrator.mixin;
 import com.ocraftyone.rebindnarrator.RebindNarrator;
 import com.ocraftyone.rebindnarrator.config.ModConfig;
 import com.ocraftyone.rebindnarrator.event.KeybindHandler;
-import com.ocraftyone.rebindnarrator.util.KeyBindingModifiedAccessor;
 import net.minecraft.client.Keyboard;
 import net.minecraft.client.gui.screen.Screen;
 import org.slf4j.Logger;
@@ -18,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 public abstract class KeyboardHandlerMixin {
     @ModifyConstant(method = "onKey", constant = @Constant(intValue = 66))
     private int getNarratorKey(int constant) {
-        int code = ((KeyBindingModifiedAccessor) KeybindHandler.TOGGLE_NARRATOR).getBoundKey().getCode();
+        int code = ((BoundKeyAccessor) KeybindHandler.TOGGLE_NARRATOR).getBoundKey().getCode();
         Logger logger = LoggerFactory.getLogger(RebindNarrator.modid);
         logger.info(String.valueOf(code));
         return code;

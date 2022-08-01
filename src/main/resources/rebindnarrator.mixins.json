@@ -6,8 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "KeyboardHandlerMixin",
-    "KeyBindingMixin"
+    "BoundKeyAccessor",
+    "KeyboardHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
